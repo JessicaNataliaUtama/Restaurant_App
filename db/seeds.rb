@@ -32,7 +32,7 @@ User.create!(email:'admin@example.com',
         category: Category.find(2)
       )
       dessert = Product.new(
-        name: 'Icecream',
+        name: 'Ice Cream',
         description: 'Lorem ipsum bbq chicken upstate newyork free range dough',
         price: 3.00,
         catering: true,
