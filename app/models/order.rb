@@ -11,4 +11,4 @@ class Order < ApplicationRecord
     def set_subtotal
       self[:subtotal] = subtotal
     end
-  end
+end
